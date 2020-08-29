@@ -11,7 +11,7 @@ dotnet new --install mikd1.dotnet.templates
 ## Templates list
 
 * [Solution Stylecop](templates/SlnStylecop/README.md)
-* [Web API Service](templates/SlnStylecop/README.md)
+* [Web API Service](templates/WebApiService/README.md)
 
 ## Uninstall
 
