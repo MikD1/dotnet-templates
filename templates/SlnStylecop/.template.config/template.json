@@ -1,0 +1,25 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "identity": "sln.stylecop",
+    "author": "Mikhail Doshevsky",
+    "name": "Solution file with stylecop",
+    "shortName": "slnstylecop",
+    "classifications": [
+        "Solution",
+        "Stylecop"
+    ],
+    "tags": {
+        "type": "Solution"
+    },
+    "sourceName": "SlnStylecop",
+    "preferNameDirectory": true,
+    "sources": [
+        {
+            "modifiers": [
+                {
+                    "exclude": [ "README.md" ]
+                }
+            ]
+        }
+    ]
+}

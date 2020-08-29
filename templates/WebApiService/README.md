@@ -1,0 +1,3 @@
+- Swagger
+- Mongo
+- Auth JWT
