@@ -17,7 +17,9 @@ namespace WebApiService
 
         public void ConfigureServices(IServiceCollection services)
         {
+#if (swagger)
             services.AddSwaggerDocumentation();
+#endif
             services.AddControllers();
         }
 
@@ -28,7 +30,9 @@ namespace WebApiService
                 app.UseDeveloperExceptionPage();
             }
 
+#if (swagger)
             app.UseSwaggerDocumentation();
+#endif
             app.UseRouting();
             app.UseEndpoints(endpoints => { endpoints.MapControllers(); });
         }

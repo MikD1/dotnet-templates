@@ -14,5 +14,44 @@
         "type": "Project"
     },
     "sourceName": "WebApiService",
-    "preferNameDirectory": true
+    "preferNameDirectory": true,
+    "symbols": {
+        "swagger": {
+            "type": "parameter",
+            "dataType": "bool",
+            "defaultValue": "true"
+        },
+        "mongo": {
+            "type": "parameter",
+            "dataType": "bool",
+            "defaultValue": "true"
+        },
+        "auth": {
+            "type": "parameter",
+            "datatype": "choice",
+            "defaultValue": "jwt",
+            "choices": [
+                {
+                    "choice": "none",
+                    "description": "None"
+                },
+                {
+                    "choice": "jwt",
+                    "description": "JWT authentication"
+                }
+            ]
+        }
+    },
+    "sources": [
+        {
+            "modifiers": [
+                {
+                    "condition": "(!swagger)",
+                    "exclude": [
+                        "SwaggerDocumentation.cs"
+                    ]
+                }
+            ]
+        }
+    ]
 }
