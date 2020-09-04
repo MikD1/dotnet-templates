@@ -1,16 +1,15 @@
 {
     "$schema": "http://json.schemastore.org/template",
-    "identity": "sln.stylecop",
+    "identity": "sln.ex",
     "author": "Mikhail Doshevsky",
-    "name": "Solution file with stylecop",
-    "shortName": "slnstylecop",
+    "name": "Extended Solution file",
+    "shortName": "slnex",
     "classifications": [
-        "Solution",
-        "Stylecop"
+        "Solution"
     ],
     "tags": {
         "type": "Solution"
     },
-    "sourceName": "SlnStylecop",
+    "sourceName": "SlnEx",
     "preferNameDirectory": true
 }
