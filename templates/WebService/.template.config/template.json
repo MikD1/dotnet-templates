@@ -1,0 +1,17 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "identity": "web.service",
+    "author": "Mikhail Doshevsky",
+    "name": "ASP.NET Core Web Service",
+    "shortName": "webservice",
+    "classifications": [
+        "Web",
+        "WebAPI",
+        "Service"
+    ],
+    "tags": {
+        "language": "C#",
+    },
+    "sourceName": "WebService",
+    "preferNameDirectory": true
+}
