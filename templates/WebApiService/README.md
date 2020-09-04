@@ -1,5 +1,11 @@
 # Dotnet Templates. Web API Service
 
+.Net Web API service
+
+## Features
+
+- Swagger
+
 ## Usage
 
 ```
@@ -11,5 +17,9 @@ dotnet new webapiservice
 | Name        | Values        | Default |
 | ----------- | ------------- | ------- |
 | --swagger   | true, false   | true    |
-| --mongo     | true, false   | true    |
-| --auth      | none, jwt     | jwt     |
+
+## ToDo
+
+- Mongo
+- Postgres
+- Docker
