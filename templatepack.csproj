@@ -6,7 +6,7 @@
     <PackageId>mikd1.dotnet.templates</PackageId>
     <Title>DotNet microservices templates</Title>
     <Authors>Mikhail Doshevsky</Authors>
-    <Description>Templates to work with microservices</Description>
+    <Description>Templates for work with microservices</Description>
     <PackageTags>dotnet-new;templates;microservice</PackageTags>
 
     <TargetFramework>netstandard2.0</TargetFramework>

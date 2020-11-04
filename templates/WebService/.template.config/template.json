@@ -10,7 +10,7 @@
         "Service"
     ],
     "tags": {
-        "language": "C#",
+        "language": "C#"
     },
     "sourceName": "WebService",
     "preferNameDirectory": true
